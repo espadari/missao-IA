@@ -55,5 +55,26 @@ let pontuacao = 0;
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.innerHTML = "";
-    perguntaAtual.alternativas.forEach()
+
+    perguntaAtual.alternativas.forEach((alternativas,index) => {
+          const botao = documento.createElement("button");
+          botao.addEventlistener("click", () => verificaResposta (index));
+          caixaAlternativas.appendChild(botao);
+         });
  }
+
+ //FUNÇÃO VERIFICAR RESPOTA
+ function vereficaResposta(Seleciona){
+      if (Seleciona === perguntaAtual.correta){
+        pontuacao++;
+      }
+      atual++;
+
+      if(atual < perguntas.lenght){
+        mostrarPerguntas();
+      } else {
+          mostrarPergunta();
+      }
+
+ }
+    
