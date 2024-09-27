@@ -77,4 +77,11 @@ let pontuacao = 0;
       }
 
  }
+ function mostrarResultado(){
+    caixaPrincipal.style.display = "none";
+    caixaResultado.style.display = "block";
+
+    setTimeout(() =>caixaResultado.classList.add("mostrar"),10);
+    textoResultado.textContent = `"Voce acertou $ {pontuacao} de $ {perguntas.lenght} perguntas´;
+ }
     
