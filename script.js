@@ -13,7 +13,7 @@ const perguntas = [
             "praia do cassino",
             "bombinhas"
         ],
-        correta: 0 // A primeira alternativa é a correta
+        correta: 0 // A primeira alternativa é a corretatg
     },
     {
         enunciado: "Quantos dias há em um ano bissexto?",
