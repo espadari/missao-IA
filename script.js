@@ -16,34 +16,34 @@ const perguntas = [
         correta: 0 // A primeira alternativa é a corretatg
     },
     {
-        enunciado: "Quantos dias há em um ano bissexto?",
+        enunciado: "Qual comida é típica do brasil?",
         alternativas: [
-            "365",
-            "366"
+            "macarrão",
+            "feijoada"
         ],
         correta: 1 // A segunda alternativa é a correta
     },
     {
-        enunciado: "Qual é o maior planeta do nosso sistema solar?",
+        enunciado: "Qual a raça de cachorro mais cara?",
         alternativas: [
-            "Terra",
-            "Júpiter"
+            "spitz alemão",
+            "Mastim tibetano"
         ],
         correta: 1
     },
     {
-        enunciado: "Qual é a capital da França?",
+        enunciado: "Qual é a maior cidade do Brasil?",
         alternativas: [
-            "Paris",
-            "Londres"
+            "São Paulo",
+            "Rio de Janeiro"
         ],
         correta: 0
     },
     {
-        enunciado: "Qual é a fórmula química da água?",
+        enunciado: "Qual a menor cidade do Paraná?",
         alternativas: [
-            "H2O",
-            "CO2"
+            "Nova Aliança do Ivaí",
+            "Jardim Olinda"
         ],
         correta: 0
     }
