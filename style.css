@@ -3,11 +3,11 @@
   /* cor do fundo */
   --cor-fundo: #ffffff;
       /* cores da caixa principal */
-  --cor-principal: #0B0D20;
+  --cor-principal: #2899ad;
   /* cores da caixa secundaria */
-  --cor-secundaria: #212333;
+  --cor-secundaria: #4a8b83;
       /* cor texto quest/Buttom */
-  --cor-destaque: #ffd700;
+  --cor-destaque: #00a2ff44;
       /* cor do texto pergunta */
   --cor-texto: #fafafa;
       /* cor fadebuttom */
