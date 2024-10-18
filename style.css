@@ -1,17 +1,17 @@
 /* Definição de variáveis CSS para as cores usadas no design */
 :root {
   /* cor do fundo */
-  --cor-fundo: #ffffff;
+  --cor-fundo: #a4e6f7;
       /* cores da caixa principal */
   --cor-principal: #2899ad;
   /* cores da caixa secundaria */
-  --cor-secundaria: #4a8b83;
+  --cor-secundaria: #3e04c4;
       /* cor texto quest/Buttom */
   --cor-destaque: #00a2ff44;
       /* cor do texto pergunta */
   --cor-texto: #fafafa;
       /* cor fadebuttom */
-  --cor-fadeButtom: #e30d6d;
+  --cor-fadeButtom: #0d58e3;
 }
 
 /* Configuração do estilo do corpo da página */
